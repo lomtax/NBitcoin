@@ -8,6 +8,7 @@ namespace NBitcoin.Altcoins
 {
     public class AltNetworkSets
     {
+		public static Digitalcoin Digitalcoin { get; } = Digitalcoin.Instance;
 		public static BCash BCash { get; } = BCash.Instance;
 		public static BGold BGold { get; } = BGold.Instance;
 		public static Dash Dash { get; } = Dash.Instance;
@@ -36,6 +37,7 @@ namespace NBitcoin.Altcoins
 			yield return Dash;
 			yield return Ufo;
 			yield return Groestlcoin;
+			yield return Digitalcoin;
 		}
 	}
 }
