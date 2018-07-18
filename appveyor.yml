@@ -72,5 +72,7 @@ test_script:
 
 # pushing all files in build directory recursively
 artifacts:
-- path: nuget\*.nupkg
-  name: nuget packages
+- path: bin
+  name: Nitcoin released dll
+- path: NBitcoin.Altcoins\bin
+  name: NitcoinAltcoins released dll  
